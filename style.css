@@ -1,0 +1,133 @@
+/* ===== БАЗОВЫЕ ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* ===== ШАПКА ===== */
+.site-header {
+    width: 100%;
+    background-color: #6fa8dc;
+    padding: 15px 0;
+}
+
+.header-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.site-nav {
+    margin-left: auto;
+}
+
+.site-nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== КОНТЕНТ ===== */
+.content {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.block {
+    background-color: #6fa8dc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.block h2 {
+    margin-top: 0;
+}
+
+/* ===== СПИСОК ССЫЛОК ===== */
+.links-list li {
+    margin-bottom: 8px;
+}
+
+/* ===== ТАБЛИЦА РАСПИСАНИЯ ===== */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #333;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.schedule-table th {
+    background-color: #4a86c8;
+    color: #fff;
+}
+
+/* Чётные/нечётные строки разного цвета */
+.schedule-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+/* Ячейка с разделением на числитель/знаменатель */
+.schedule-table .split {
+    padding: 0;
+}
+
+.schedule-table .split .top,
+.schedule-table .split .bottom {
+    padding: 6px 4px;
+    min-height: 20px;
+}
+
+.schedule-table .split .bottom {
+    border-top: 1px solid #333;
+}
+
+/* ===== ПОДВАЛ ===== */
+.site-footer {
+    width: 100%;
+    background-color: #6fa8dc;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
