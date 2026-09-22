@@ -12,7 +12,7 @@ body {
 /* ===== ШАПКА ===== */
 .site-header {
     width: 100%;
-    background-color: #6fa8dc;
+    background-color: #c9b6e4;
     padding: 15px 0;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .block {
-    background-color: #6fa8dc;
+    background-color: #c9b6e4;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .schedule-table th {
-    background-color: #4a86c8;
+    background-color: #a78bca;
     color: #fff;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .schedule-table tbody tr:nth-child(even) {
-    background-color: #e0e0e0;
+    background-color: #ede4f7;
 }
 
 /* Ячейка с разделением на числитель/знаменатель */
@@ -121,7 +121,7 @@ body {
 /* ===== ПОДВАЛ ===== */
 .site-footer {
     width: 100%;
-    background-color: #6fa8dc;
+    background-color: #c9b6e4;
     padding: 20px 0;
     margin-top: 20px;
 }
