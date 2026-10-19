@@ -38,6 +38,8 @@ body {
 
 .site-nav {
     margin-left: auto;
+    display: flex;
+    align-items: flex-start;
 }
 
 .site-nav a {
@@ -45,6 +47,8 @@ body {
     text-decoration: none;
     margin-left: 20px;
     font-size: 16px;
+    padding-top: 0; 
+    line-height: 1.2;
 }
 
 .site-nav a:hover {
