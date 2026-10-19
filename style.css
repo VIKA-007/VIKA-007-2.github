@@ -13,15 +13,22 @@ body {
 .site-header {
     width: 100%;
     background-color: #9477be;
-    padding: 15px 0;
+    padding: 0;
 }
 
 .header-inner {
     width: 100%;
-    padding: 0 30px;
+    display: flex;
+    justify-content: space-between; /* Лого слева, меню справа */
+    align-items: stretch; /* Растягиваем по высоте */
+    margin: 0 auto;
+}
+
+.logo-title-wrapper {
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 15px 30px;
 }
 
 .logo img {
@@ -36,25 +43,27 @@ body {
     font-weight: bold;
 }
 
+/* Вот эти стили сделают ссылки аккуратными блоками */
 .site-nav {
-    margin-left: auto;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start; /* Прижимаем к верху */
 }
 
 .site-nav a {
     color: #000;
     text-decoration: none;
-    margin-left: 20px;
     font-size: 16px;
-    padding-top: 0; 
-    line-height: 1.2;
+    padding: 15px 20px; /* Отступы внутри ссылки */
+    border-left: 1px solid rgba(0, 0, 0, 0.1); /* Разделитель слева */
+}
+
+.site-nav a:first-child {
+    border-left: none; /* У первой ссылки слева разделителя нет */
 }
 
 .site-nav a:hover {
     text-decoration: underline;
 }
-
 /* ===== КОНТЕНТ ===== */
 .content {
     max-width: 960px;
